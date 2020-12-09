@@ -1,6 +1,6 @@
 <?php
 
-namespace Otiumtek\StelOrderLaravel\Facades;
+namespace Otiumtek\StelOrderLaravelLaravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
