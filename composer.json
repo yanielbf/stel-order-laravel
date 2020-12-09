@@ -1,0 +1,50 @@
+{
+  "name": "otiumtek/stel-order-laravel",
+  "description": "A stel order laravel",
+  "license": "MIT",
+  "keywords": [
+    "stel",
+    "order",
+    "laravel"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "illuminate/support": "^6.0|^7.0|^8.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^4.0|^5.0|^6.0",
+    "phpunit/phpunit": "^8.4|^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Otiumtek\\StelOrderLaravel\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Otiumtek\\StelOrderLaravel\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Otiumtek\\StelOrderLaravel\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
