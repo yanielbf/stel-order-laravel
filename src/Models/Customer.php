@@ -32,7 +32,7 @@ class Customer {
             'id' => 'setId',
             'name' => 'setName',
             'email' => 'setEmail',
-            'legalName' => 'setLegalName',
+            'legal-name' => 'setLegalName',
         ];
     }
 
